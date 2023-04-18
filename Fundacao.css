@@ -1,0 +1,82 @@
+body {
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #91d6f177;
+}
+
+header {
+	background-color: #0080b3;
+	color: #fff;
+	padding: 10px 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#bp {
+	align-items: start;
+	color: white;
+	text-decoration: none;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	
+}
+
+nav ul li {
+	margin-left: 20px;
+}
+
+nav ul li:first-child {
+	margin-left: 0;
+}
+
+nav ul li a {
+	color: #ffffff;
+	text-decoration: none;
+}
+article{
+	text-align: center;
+}
+#pa {
+	text-align: left;
+	font-size: 20px;
+}
+footer {
+	text-align: center;
+	background-color: #0176a4;
+}
+.fundacao h1 {
+	margin-top: auto;
+	font-size: 34px;
+	background-color: rgb(99, 151, 211, 0.842);
+	color: rgb(29, 58, 71)
+	
+}
+.fundacao p {
+	
+	margin: 40px;
+	font-size: larger;
+}
+img {margin-right: 50px; width: 200px; border-radius: 16px;}
+
+#back-to-top {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	font-size: 16px;
+	color: #fff;
+	background-color: #333;
+	padding: 10px 15px;
+	border-radius: 4px;
+	cursor: pointer;
+	text-decoration: none;
+  }
+  
+  #back-to-top:hover {
+	background-color: #555;
+  }
