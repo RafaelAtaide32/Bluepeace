@@ -53,8 +53,7 @@ footer {
 .servicos p {
 	font-size: larger;
 }
-img {margin-right: 20px;}
-
+img{width: 400px; border-radius: 16px;}
 #back-to-top {
 	display: none;
 	position: fixed;
